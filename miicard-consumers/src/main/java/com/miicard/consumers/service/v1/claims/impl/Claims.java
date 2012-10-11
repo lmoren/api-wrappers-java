@@ -66,7 +66,7 @@ public class Claims extends Service {
      * @param features WebServiceFeature
      */
     public Claims(final WebServiceFeature... features) {
-        super(__getWsdlLocation(), CLAIMS_QNAME, features);
+        super(__getWsdlLocation(), CLAIMS_QNAME);
     }
 
     /**
@@ -88,7 +88,7 @@ public class Claims extends Service {
     		final URL wsdlLocation, 
     		final WebServiceFeature... features) {
         
-    	super(wsdlLocation, CLAIMS_QNAME, features);
+    	super(wsdlLocation, CLAIMS_QNAME);
     }
 
     /**
@@ -116,7 +116,7 @@ public class Claims extends Service {
     		final QName serviceName, 
     		final WebServiceFeature... features) {
         
-    	super(wsdlLocation, serviceName, features);
+    	super(wsdlLocation, serviceName);
     }
 
     /**
