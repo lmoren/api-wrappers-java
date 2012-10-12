@@ -24,6 +24,8 @@
         </dependency>
     </dependencies>
     <build>
+        <defaultGoal>install</defaultGoal>
+        <finalName>miicard-consumers</finalName>
         <plugins>
             <!-- Java compiler version -->
             <plugin>
